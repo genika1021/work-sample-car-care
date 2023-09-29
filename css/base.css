@@ -1,0 +1,148 @@
+p h1
+{
+	font-family: 'Droid Serif', serif;
+}
+
+/*NAVAGATION*/
+
+.navbar
+{
+	background-color:#D8C436;
+	border-bottom:1px; solid #b9b9b9;
+}
+.navbar a
+{
+	color:#000 !important;
+}
+.navbar a:hover
+{
+	color:#fff !important;
+	border-bottom:solid 1px #861C1C !important;
+}
+
+.navbar-header .navbar-brand
+{
+	color:#000 !important;
+	font-size:1.5em !important;
+	font-family: 'Lato', sans-serif;
+}
+
+
+/*HEADER*/
+
+.header
+{
+	padding: 140px 0 60px 0;
+	background:url('../images/car_6.jpe') no-repeat center center;
+	background-color:#fff;
+	background-size:cover;
+	border-bottom:2px solid #cdcdcd;
+}
+
+.header h1
+{
+	color:#fff;
+	font-family: 'Pacifico', cursive;
+	font-size:7.5em;
+}
+
+.header p
+{
+	
+	font-size:1.3em;
+	color:#fff;
+}
+.header .btn
+{
+	padding: 5px 50px 5px 50px;
+	border-radius:3 0;
+	display:none;
+}
+
+.header p #main-text
+{
+		background-color:black;
+		opacity:1;
+		z-index:100;
+}
+.jumbotron
+{
+	opacity:.7;
+	background-color:black!important;
+}
+/*p#main-text
+{
+	background-color:black;
+	opacity:.7;
+	border-radius:10px 5px;
+	padding:10px;
+}*/
+
+@media(max-width:768px)
+{
+	.header
+	{
+		text-align:center;
+	}
+	.header h1
+	{
+		font-size:5em;
+	}
+	
+	.header p
+	{
+		font-size:.75em;
+		text-align:justify;
+	}
+	
+}
+
+/*-------ABOUT-------*/
+
+.about
+{
+	padding: 100px 0 60px 0;
+	/*background:url('../images/car_7.png') no-repeat center center;
+	background-color:#fff;
+	background-size:cover;
+	border-bottom:2px solid #cdcdcd;*/
+	background-color:#fff;
+}
+.about h1
+{
+	font-size:2em;
+}
+
+img.img-responsive
+{
+	border-radius:80px 10px;
+	position:relative;
+	/*top:50px;*/
+}
+.pics
+{
+	height:150px;
+	width:150px;
+}
+
+.team
+{
+	margin-top:100px;
+	background:url('../images/car_inside.jpe') no-repeat center center;
+	background-size:cover;
+}
+
+.table tr td h1
+{
+	color:#fff;
+}
+.table tr td
+{
+	border:none!important;
+	text-align:center;
+	color:#fff;
+}
+.table tr td h1
+{
+		text-align:center;
+}
